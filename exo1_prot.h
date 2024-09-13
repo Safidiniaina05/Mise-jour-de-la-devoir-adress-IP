@@ -1,0 +1,11 @@
+char *allocate(char *a);
+void get_ip(char **ip);
+void get_mask(char **mask);
+void calcul_reseau(char *ip, char *mask);
+void calcul_broadcast(char *ip, char *chaine);
+void calcul_nbr_machine(char *chaine);
+void condition(char *chaine, char *mask, int *bin10, int *bin20, int *bin30, int *bin40);
+int  verify(char *chaine);
+void affectation(char *mask, int **bin1, int **bin2, int **bin3, int **bin4);
+int *decimale_en_binaire(int nombre);
+void concate(char **chaine, int *bin1, int *bin2, int *bin3, int *bin4);
